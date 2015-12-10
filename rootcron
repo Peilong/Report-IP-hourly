@@ -1,0 +1,3 @@
+# check ip hourly
+@reboot /usr/bin/python /absolute-path-to-this-repo/Report-IP-hourly/reportip.py &
+0 */1 * * * /usr/bin/python /absolute-path-to-this-repo/Report-IP-hourly/reportip.py
